@@ -1,8 +1,140 @@
-
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </meta>
-    <title>{{ name }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/styles/index.css">
 </head>
+<body>
+    <div class="wrapper">
+        <aside>
+            <img src="src/img/Profile_picture.png" alt="Profile Picture">
+            <div class="profile">
+                <div class="buttons">
+                    <input class="button_friend" type="button" value="Подружиться">
+                    <input class="button_invite" type="button" value="Позвать на прогулку">
+                </div>
+                <div class="friends">
+                    <h2>Мои друзья</h2>
+                    <span>127</span>
+                    <div class="friends_list">
+                        <a class="alert" data-title="Сэм" href=""><img src="src/img/Picture_1.png" alt="Friend 1"></a>
+                        <a class="alert" data-title="Джордж" href=""><img src="src/img/Picture_2.png" alt="Friend 2"></a>
+                        <a class="alert" data-title="Абрахам" href=""><img src="src/img/Picture_3.png" alt="Friend 3"></a>
+                        <a class="alert" data-title="Дин" href=""><img src="src/img/Picture_4.png" alt="Friend 4"></a>
+                        <a class="alert" data-title="Джон" href=""><img src="src/img/Picture_5.png" alt="Friend 5"></a>
+                        <a class="alert" data-title="Семми" href=""><img src="src/img/Picture_6.png" alt="Friend 6"></a>
+                    </div>
+                </div>
+                <div class="interests">
+                    <h2>Интересы</h2>
+                    <div class="interests_list">
+                        <a class="interest_object" href="">Еда</a>
+                        <a class="interest_object" href="">Сон</a>
+                        <a class="interest_object" href="">Прогулки</a>
+                        <a class="interest_object" href="">Охота</a>
+                        <a class="interest_object" href="">Игры</a>
+                        <a class="interest_object" href="">Мурчание</a>
+                        <a class="interest_object" href="">Коробки</a>
+                        <a class="interest_object" href="">Прыжки</a>
+                        <a class="interest_object" href="">Лазание</a>
+                        <a class="interest_object" href="">Прятки</a>
+                        <a class="interest_object" href="">Слежка</a>
+                        <a class="interest_object" href="">Рыбалка</a>
+                        <a class="interest_object" href="">Медитация</a>
+                        <a class="interest_object" href="">Балкон</a>
+                        <a class="interest_object" href="">Тапки</a>
+                        <a class="interest_object" href="">Птицы</a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main>
+           <div class="about_cat">
+               <div class="name">
+                   <h1>Симба</h1>
+                   <img src="src/img/official.png" alt="Official">
+               </div>
+               <div class="about">
+                   <h2>Обо мне</h2>
+                   <table>
+                       <tr>
+                           <td style="font-weight: 700; color: #1F2937; padding-right: 32px;">Возраст: </td>
+                           <td style="font-weight: 400; color: #4A5161;">5 лет</td>
+                       </tr>
+                       <tr>
+                           <td style="font-weight: 700; color: #1F2937">Пол: </td>
+                           <td style="font-weight: 400; color: #4A5161;">Кот</td>
+                       </tr>
+                       <tr>
+                           <td style="font-weight: 700; color: #1F2937">Порода: </td>
+                           <td style="font-weight: 400; color: #4A5161;">Дворовой</td>
+                       </tr>
+                   </table>
+               </div>
+               <div class="lord">
+                   <h2>Мой хозяин</h2>
+                   <table>
+                       <tr>
+                           <td style="font-weight: 700; color: #1F2937; padding-right: 58px;">Имя: </td>
+                           <td style="font-weight: 400; color: #4A5161;">Сергей Кузнецов</td>
+                       </tr>
+                       <tr>
+                           <td style="font-weight: 700; color: #1F2937">Тел: </td>
+                           <td style="font-weight: 400; color: #4A5161;"><a href="tel:+1 800 123 4567" class="mail">+1 800 123 4567</a></td>
+                       </tr>
+                       <tr>
+                           <td style="font-weight: 700; color: #1F2937">Почта: </td>
+                           <td><a class="mail" href="mailto: ">serg.catowner@gmail.com</a></td>
+                       </tr>
+                   </table>
+                   <p class="description">Всем привет! Меня зовут Симба, и как настоящий лев в душе, я всегда готов к новым приключениям! Я самый смелый кот на районе: однажды я даже прыгнул на свою тень (спойлер: она оказалась слишком быстрая)! Обожаю бегать за лазерной указкой и взбираться на самую высокую полку. Давай подружимся! Вместе мы точно захватим мир... ну или хотя бы пару интересных коробок! 😸</p><hr>
+               </div>
+               <div class="games">
+                   <h2>Любимые игры</h2>
+                   <ol>
+                       <li class="link"><a class="list linked" href="https://www.youtube.com/shorts/9sVmDE0GEaY" target="_blank">Поймай хвостик</a><span class="desc"> - кошачья классика.</span></li>
+                       <li class="link"><a class="list linked" href="https://www.youtube.com/shorts/3pouyGXwTNI" target="_blank">Охота за солнечными зайчиками</a><span class="desc"> - эта игра никогда не надоест!</span></li>
+                       <li class="link"><a class="list linked" href="https://www.youtube.com/shorts/snsgHqHvaZQ" target="_blank">Прыг-скок в коробку</a><span class="desc"> - не важно, какого размера коробка, Симба всегда победит.</span></li>
+                   </ol>
+               </div>
+               <div class="achivments">
+                   <h2>Достижения</h2>
+                   <ol>
+                       <li>
+                           <p class="achievement list">Лучший подражатель птиц</p>
+                           <ul>
+                               <li>Тренировался у окна на воробьях</li>
+                               <li>Умею захватывающе "чирикать" в нужный момент</li>
+                               <li>Получил овации со свистом от соседей</li>
+                           </ul>
+                       </li>
+                       <li>
+                           <p class="achievement list">Спайдеркот-2024</p>
+                           <ul>
+                               <li>Занимаю первое место в категории "Полезай выше"</li>
+                               <li>Однажды достиг самого верха штор</li>
+                               <li>Шторы пережили это с минимальными потерями</li>
+                           </ul>
+                       </li>
+                       <li>
+                           <p class="achievement list">Король сонных марафонов</p>
+                           <ul>
+                               <li>Легко провожу 18 часов в день на диване</li>
+                               <li>Меняю позы не просыпаясь</li>
+                               <li>Побеждаю в любых соревнованиях по сонному мурчанию</li>
+                           </ul>
+                       </li>
+                   </ol>
+
+               </div>
+               <div class="treat">
+                   <h2>Любимое угощение</h2>
+                   <p>Тунец в соусе <span class="meal">"Delicious Kitty"</span></p>
+               </div>
+           </div>
+        </main>
+    </div>
+</body>
 </html>

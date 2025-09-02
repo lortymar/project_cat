@@ -1,0 +1,281 @@
+body {
+    background: #C0C6DC;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    background: #FFFFFF;
+    width: 1200px;
+    height: 1206px;
+    border-radius: 40px;
+    margin: 0 auto;
+    display: flex;
+}
+
+aside {
+    background: #E0EBFEB2 70%;
+    height: 1206px;
+    width: 370px;
+    border-radius: 40px;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+main {
+    display: flex;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 100%;
+    color: #1F2937;
+}
+
+hr {
+    width: 710px;
+    height: 0;
+    border: 1px #E0EAFE solid;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.interest_object:hover {
+    background-color: rgba(59, 21, 157, 0.2);
+}
+
+.profile {
+    margin: 0 2.5em 1em 2.5em;
+}
+
+.button_friend {
+    padding: 14px 16px;
+    background: #7549EA;
+    color: #fff;
+    border-radius: 16px;
+    height: 48px;
+    width: 290px;
+    margin: 32px 0 0 0;
+}
+
+.button_friend:hover {
+    background-color: #562dc2;
+}
+
+.button_invite {
+    padding: 14px 16px;
+    height: 48px;
+    width: 290px;
+    border-radius: 16px;
+    border-color: #7549EA;
+    background: #E0EBFEB2 70%;
+    margin: 16px 0 32px 0;
+}
+
+.button_invite:hover {
+    background-color: rgba(203, 207, 224, 0.7);
+}
+
+.friends > h2 {
+    display: inline;
+    padding-right: 16px;
+}
+
+.friends > span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0;
+    width: 34px;
+    height: 27px;
+    color: #4A5161;
+}
+
+.friends_list > a {
+    margin-right: -25px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.alert > img:hover {
+    margin-bottom: 15px;
+}
+
+.alert:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    z-index: 1;
+    background: rgba(0,42,167,0.6);
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
+
+.interests > h2 {
+    color: #1F2937;
+}
+
+.interest_object {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
+    width: 87px;
+    height: 24px;
+    border-radius: 6px;
+    background-color: #7549EA33;
+    padding: 2px 8px;
+    gap: 10px;
+    color: #7549EA;
+    text-decoration: none;
+}
+
+.about_cat {
+    padding: 40px;
+}
+
+.name {
+    width: 203px;
+    height: 55px;
+}
+
+.name > h1 {
+    display: inline;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    letter-spacing: 0;
+}
+
+.name > img {
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+}
+
+.about {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.lord {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.mail {
+    font-weight: 400;
+    text-decoration: none;
+    color: #4A5161;
+}
+
+.mail:hover {
+    text-decoration: underline;
+    color: #7549EA;
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #4A5161;
+    padding-top: 12px;
+    width: 710px;
+}
+
+ol {
+    padding-left: 18px;
+    color: #1F2937;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+
+.link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: #4A5161;
+}
+
+.desc {
+    font-family: 'Montserrat', sans-serif;
+    color: #4A5161;
+    font-weight: 400;
+}
+
+.list {
+    padding-left: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: #4A5161;
+}
+
+.linked:hover {
+    text-decoration: underline;
+    color: #7549EA;
+}
+
+.achievement {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #1F2937;
+}
+
+ul {
+    color: #4A5161;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    list-style-type: disc;
+}
+
+ul > li::marker {
+    font-size: 8px;
+}
+
+.treat > p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #4A5161;
+}
+
+.meal {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #1F2937;
+}
+
+.videos {
+    display: inline-block;
+}
